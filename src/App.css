@@ -134,4 +134,44 @@
   .submit-btn {
     grid-column: span 1;
   }
+  @media (max-width: 768px) {
+  /* ... your existing mobile styles ... */
+
+  .results-table table {
+    border: 0;
+  }
+
+  .results-table thead {
+    display: none;
+  }
+
+  .results-table tr {
+    display: block;
+    margin-bottom: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .results-table td {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 10px;
+    border: none;
+    border-bottom: 1px solid #eee;
+  }
+
+  .results-table td:last-child {
+    border-bottom: none;
+  }
+
+  .results-table td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    flex: 1;
+    margin-right: 10px;
+    color: #333;
+  }
+}
 }
