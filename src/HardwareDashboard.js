@@ -329,11 +329,11 @@ const HardwareDashboard = () => {
                 <tbody>
                   {searchResults.map((device) => (
                     <tr key={device.id}>
-                      <td>{device.serviceTag}</td>
-                      <td>{device.deviceName}</td>
-                      <td>{device.assignedTo}</td>
-                      <td>{device.employeeId}</td>
-                      <td>{device.issueDate}</td>
+                      <td data-label="Service Tag">{device.serviceTag}</td>
+                      <td data-label="Device Name">{device.deviceName}</td>
+                      <td data-label="Assigned To">{device.assignedTo}</td>
+                      <td data-label="Employee ID">{device.employeeId}</td>
+                      <td data-label="Issue Date">{device.issueDate}</td>
                     </tr>
                   ))}
                 </tbody>
