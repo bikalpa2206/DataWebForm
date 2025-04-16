@@ -113,7 +113,7 @@ const HardwareDashboard = () => {
       <header className="app-header">
         <img 
           src={process.env.PUBLIC_URL + '/images/viva.png'} 
-          alt="VIVA Hardware Allocation" 
+          alt="VIVA  IT Hardware Allocation" 
           className="title-image" 
         />
       </header>
