@@ -5,6 +5,7 @@ import './App.css';
 
 const HardwareDashboard = () => {
   const [showSuccess, setShowSuccess] = useState(false);
+  // eslint-disable-next-line no-unused-vars
   const [isAddingDevice, setIsAddingDevice] = useState(false);
 
   const [form, setForm] = useState({
