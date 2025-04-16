@@ -119,7 +119,7 @@ const HardwareDashboard = () => {
       </header>
       
       <div className="hardware-form">
-        <h1>VIVA Hardware Allocation Form</h1>
+        <h1>VIVA IT Hardware Allocation Form</h1>
         
         <form onSubmit={(e) => e.preventDefault()}>
           <div className="form-grid">
